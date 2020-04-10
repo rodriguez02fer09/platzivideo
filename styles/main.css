@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: "Muli", sans-serif;
+  background: #8f57fd;
+}
+.main {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.main__title {
+  color: white;
+  font-size: 25px;
+}
+.input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+  padding: 0px 20px;
+  width: 70%;
+}
+.search {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  height: 50px;
+  padding: 0px 20px;
+  width: 70%;
+}
+::placeholder {
+  color: white;
+}
+.categories-tittle {
+  color: white;
+  padding-left: 30px;
+  font-family: "Muli", sans-serif;
+  font-size: 16px;
+  width: 100%;
+}
